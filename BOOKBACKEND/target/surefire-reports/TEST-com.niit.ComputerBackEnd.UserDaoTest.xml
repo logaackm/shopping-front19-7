@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.niit.ComputerBackEnd.UserDaoTest" time="0.075" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\com\ComputerBackEnd"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\com\ComputerBackEnd"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mruser\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\eclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2836489707147719652.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\jZip;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Microsoft\Web Platform Installer\C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\mruser\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\mruser\AppData\Local\Programs\Python\Python36\;C:\Users\mruser\AppData\Local\Microsoft\WindowsApps;C:\Users\mruser\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\mruser\AppData\Roaming\npm;D:\eclipse\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\mruser"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="MRuser"/>
+    <property name="java.class.path" value="C:\Users\MRuser\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\com\ComputerBackEnd\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.niit.ComputerBackEnd.UserDaoTest" name="addProductTest" time="0.075">
+    <error message="could not execute statement; SQL [n/a]; constraint [&quot;PRIMARY_KEY_9 ON PUBLIC.USERDETAIL(USERNAME) VALUES (&apos;kishok&apos;, 1)&quot;; SQL statement:
+insert into UserDetail (address, customerName, emailId, enabled, mobileNo, password, role, username) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-196]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement" type="org.springframework.dao.DataIntegrityViolationException">org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [&quot;PRIMARY_KEY_9 ON PUBLIC.USERDETAIL(USERNAME) VALUES (&apos;kishok&apos;, 1)&quot;; SQL statement:
+insert into UserDetail (address, customerName, emailId, enabled, mobileNo, password, role, username) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-196]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.hibernate4.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:163)
+	at org.springframework.orm.hibernate4.HibernateTransactionManager.convertHibernateAccessException(HibernateTransactionManager.java:730)
+	at org.springframework.orm.hibernate4.HibernateTransactionManager.doCommit(HibernateTransactionManager.java:592)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:504)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:292)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy34.registerUser(Unknown Source)
+	at com.niit.ComputerBackEnd.UserDaoTest.addProductTest(UserDaoTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:463)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:349)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.springframework.orm.hibernate4.HibernateTransactionManager.doCommit(HibernateTransactionManager.java:584)
+	... 39 more
+Caused by: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_9 ON PUBLIC.USERDETAIL(USERNAME) VALUES (&apos;kishok&apos;, 1)&quot;; SQL statement:
+insert into UserDetail (address, customerName, emailId, enabled, mobileNo, password, role, username) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:231)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:190)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:705)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:156)
+	at org.h2.command.dml.Insert.update(Insert.java:114)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:101)
+	at org.h2.command.Command.executeUpdate(Command.java:260)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:354)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:158)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:629)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:164)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:150)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:187)
+	... 52 more
+</error>
+    <system-out>-- Cart DAO Implementation ----
+---Data Source Created---
+Creating SessionFactory Bean
+----Category DAO Implementation---
+-- Order DAO Implementation ----
+---Product DAO Implementation ---
+---Product DAO Implementation ---
+---Transaction Manager----
+</system-out>
+    <system-err>Jun 21, 2018 5:22:18 PM org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@74cf8b28: startup date [Thu Jun 21 17:22:18 IST 2018]; root of context hierarchy
+Jun 21, 2018 5:22:18 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean &apos;categoryDAO&apos; with a different definition: replacing [Generic bean: class [com.niit.ComputerBackEnd.Dao.CategoryDAOImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\com\ComputerBackEnd\target\classes\com\niit\ComputerBackEnd\Dao\CategoryDAOImpl.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=getCategoryDAO; initMethodName=null; destroyMethodName=(inferred); defined in com.niit.ComputerBackEnd.config.DBConfig]
+Jun 21, 2018 5:22:18 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean &apos;productDAO&apos; with a different definition: replacing [Generic bean: class [com.niit.ComputerBackEnd.Dao.ProductDAOImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\com\ComputerBackEnd\target\classes\com\niit\ComputerBackEnd\Dao\ProductDAOImpl.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=getProductDAO; initMethodName=null; destroyMethodName=(inferred); defined in com.niit.ComputerBackEnd.config.DBConfig]
+Jun 21, 2018 5:22:18 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean &apos;userDAO&apos; with a different definition: replacing [Generic bean: class [com.niit.ComputerBackEnd.Dao.UserDAOImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\com\ComputerBackEnd\target\classes\com\niit\ComputerBackEnd\Dao\UserDAOImpl.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=getUserDAO; initMethodName=null; destroyMethodName=(inferred); defined in com.niit.ComputerBackEnd.config.DBConfig]
+Jun 21, 2018 5:22:18 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean &apos;cartDAO&apos; with a different definition: replacing [Generic bean: class [com.niit.ComputerBackEnd.Dao.CartDAOImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\com\ComputerBackEnd\target\classes\com\niit\ComputerBackEnd\Dao\CartDAOImpl.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=getCartDAO; initMethodName=null; destroyMethodName=(inferred); defined in com.niit.ComputerBackEnd.config.DBConfig]
+Jun 21, 2018 5:22:18 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean &apos;orderDAO&apos; with a different definition: replacing [Generic bean: class [com.niit.ComputerBackEnd.Dao.OrderDAOImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\com\ComputerBackEnd\target\classes\com\niit\ComputerBackEnd\Dao\OrderDAOImpl.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=getOrderDAO; initMethodName=null; destroyMethodName=(inferred); defined in com.niit.ComputerBackEnd.config.DBConfig]
+Jun 21, 2018 5:22:18 PM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.h2.Driver
+Jun 21, 2018 5:22:19 PM org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Jun 21, 2018 5:22:19 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Jun 21, 2018 5:22:19 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory &lt;init&gt;
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000228: Running hbm2ddl schema update
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000102: Fetching database metadata
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000396: Updating schema
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000261: Table found: FIRSTPROJECT.PUBLIC.CARTITEM
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000037: Columns: [cartitemid, quantity, productid, price, productname, status, username]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000108: Foreign keys: []
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000126: Indexes: [primary_key_2]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000261: Table found: FIRSTPROJECT.PUBLIC.CATEGORY
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000037: Columns: [cateogrydesc, categoryname, categoryid]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000108: Foreign keys: []
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000126: Indexes: [primary_key_3]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000261: Table found: FIRSTPROJECT.PUBLIC.ORDERDETAIL
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000037: Columns: [paymentmode, purchasevalue, orderid, orderdate, username]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000108: Foreign keys: []
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000126: Indexes: [primary_key_f]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000261: Table found: FIRSTPROJECT.PUBLIC.PRODUCT
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000037: Columns: [supplierid, productid, price, productname, proddesc, stock, categoryid]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000108: Foreign keys: []
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000126: Indexes: [primary_key_1]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000261: Table found: FIRSTPROJECT.PUBLIC.USERDETAIL
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000037: Columns: [password, address, role, emailid, mobileno, customername, enabled, username]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000108: Foreign keys: []
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: HHH000126: Indexes: [primary_key_9]
+Jun 21, 2018 5:22:19 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000232: Schema update complete
+Jun 21, 2018 5:22:19 PM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2c383e33] of Hibernate SessionFactory for HibernateTransactionManager
+Jun 21, 2018 5:22:19 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 23505, SQLState: 23505
+Jun 21, 2018 5:22:19 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Unique index or primary key violation: &quot;PRIMARY_KEY_9 ON PUBLIC.USERDETAIL(USERNAME) VALUES (&apos;kishok&apos;, 1)&quot;; SQL statement:
+insert into UserDetail (address, customerName, emailId, enabled, mobileNo, password, role, username) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-196]
+Jun 21, 2018 5:22:19 PM org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl release
+INFO: HHH000010: On release of batch it still contained JDBC statements
+</system-err>
+  </testcase>
+</testsuite>
